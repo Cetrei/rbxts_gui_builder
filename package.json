@@ -1,0 +1,33 @@
+{
+  "name": "breakpoint_game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.838",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "prettier": "^3.5.2",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@rbxts/attributes": "^1.0.0",
+    "@rbxts/knit": "^0.0.21-alpha.0",
+    "@rbxts/roact": "^3.0.1",
+    "@rbxts/services": "^1.5.5",
+    "@rbxutil/signal": "^2.0.3"
+  }
+}
